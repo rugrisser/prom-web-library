@@ -1,3 +1,11 @@
+module.exports = {
+  modules: [
+    '@nuxtjs/axios',
+  ],
+  axios: {
+
+  }
+}
 
 export default {
   mode: 'universal',
@@ -58,5 +66,6 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
+
 }
